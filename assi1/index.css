@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    background-size: cover;
+}
+
+
+#wrapper{
+    width: 900px;
+    margin: auto;
+}
+header{
+    width: 900px;
+    height: 120px;
+    background-color: aqua;
+}
+#menu{
+    width: 900px;
+    height: 50px;
+    background-color: burlywood;
+}
+#content{
+    display: flex;
+    min-height: 600px;
+}
+.left{
+    flex-basis:20% ;
+    background-color: blue;
+}
+
+.content{
+    flex-basis:60% ;
+    background-color: rgb(63, 135, 159);
+}
+.sidebar{
+    flex-basis :30%;
+    background-color: rgb(148, 74, 124);
+}
+
+article{
+    display:  flex;
+    width: 400px;
+    height: 100px;
+    background-color: rgb(249, 239, 239);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    
+    
+}
