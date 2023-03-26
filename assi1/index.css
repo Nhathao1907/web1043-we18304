@@ -47,5 +47,9 @@ article{
     padding: 20px;
     border-radius: 20px;
     
-    
+}
+footer{
+    background-color: rgb(92, 94, 69);
+    width: 900px;
+    height: 100px;
 }
